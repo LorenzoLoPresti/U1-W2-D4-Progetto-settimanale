@@ -96,7 +96,7 @@ console.log('\n\
 -------------parte 1-----------------\n\
 ');
 
-   cars.push({})
+   cars.push({brand : 'Bmw', model : 'X5', color: 'white', trims: ['sport', 'suv', 'style']})
 
 console.log(cars);
 
