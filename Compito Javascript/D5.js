@@ -48,7 +48,7 @@ console.log('\n\
 ')
 
 pets.shift()
-pets[3] = 'redfish'
+pets.push('redfish')
 console.log(pets);
 
 /* ESERCIZIO 5
@@ -123,8 +123,8 @@ const justTrims = []
 
  for (let i = 0; i < cars.length; i++) {
   if(cars[i].trims) {
-    let sostituzione = cars[i].trims[0]
-    justTrims[i] = sostituzione
+    let primaProprietà = cars[i].trims[0]
+    justTrims[i] = primaProprietà
   }
  };
 
@@ -161,10 +161,19 @@ const numericArray = [
 
 let i = 0
 
+//nel caso in cui 32 debba essere stampato in console
 while (numericArray[i] !== 66) {
   console.log(numericArray[i]);
   i++
 }
+
+// Nel caso in cui 32 non debba essere stampato in console scommentare sotto
+/* 
+while (numericArray[i] !== 32) {
+   console.log(numericArray[i]);
+   i++
+}
+*/
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -200,11 +209,59 @@ for (let i = 0; i < charactersArray.length; i++) {
     case 'g':
     numberArray[i] = 7
     break;
+    case 'h':
+    numberArray[i] = 8
+    break;
+    case 'i':
+    numberArray[i] = 9
+    break;
+    case 'j':
+    numberArray[i] = 10
+    break;
+    case 'k':
+    numberArray[i] = 11
+    break;
+    case 'l':
+    numberArray[i] = 12
+    break;
+    case 'm':
+    numberArray[i] = 13
+    break;
     case 'n':
     numberArray[i] = 14
     break;
+    case 'o':
+    numberArray[i] = 15
+    break;
+    case 'p':
+    numberArray[i] = 16
+    break;
+    case 'q':
+    numberArray[i] = 17
+    break;
+    case 'r':
+    numberArray[i] = 18
+    break;
+    case 's':
+    numberArray[i] = 19
+    break;
+    case 't':
+    numberArray[i] = 20
+    break;
     case 'u':
     numberArray[i] = 21
+    break;
+    case 'v':
+    numberArray[i] = 22
+    break;
+    case 'w':
+    numberArray[i] = 23
+    break;
+    case 'x':
+    numberArray[i] = 24
+    break;
+    case 'y':
+    numberArray[i] = 25
     break;
     case 'z':
     numberArray[i] = 26
