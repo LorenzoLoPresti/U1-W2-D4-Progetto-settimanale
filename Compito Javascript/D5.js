@@ -96,11 +96,8 @@ console.log('\n\
 -------------parte 1-----------------\n\
 ');
 
-for (let i = 0; i < cars.length; i++){
-  cars[i].trims.push({})
-  // cars.push({})
-  // break
-}
+   cars.push({})
+
 console.log(cars);
 
 console.log('\n\
@@ -109,7 +106,9 @@ console.log('\n\
 ');
 
 for (let i = 0; i < cars.length; i++){
-  cars[i].trims.pop()
+  if(cars[i].trims) {
+    cars[i].trims.pop()
+  }
 }
 console.log(cars);
 
@@ -123,8 +122,10 @@ console.log('\n\
 const justTrims = []
 
  for (let i = 0; i < cars.length; i++) {
-   let sostituzione = cars[i].trims[0]
-   justTrims[i] = sostituzione
+  if(cars[i].trims) {
+    let sostituzione = cars[i].trims[0]
+    justTrims[i] = sostituzione
+  }
  };
 
 
@@ -139,7 +140,7 @@ console.log('\n\
 ')
 
 for (let i = 0; i < cars.length; i++) {
-  if (cars[i].color.charAt() === 'b'){
+  if (cars[i].color && cars[i].color.charAt() === 'b'){
     console.log('Fizz');
   } else {
     console.log('Buzz');
@@ -178,6 +179,24 @@ const numberArray = []
 
 for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
+    case 'a':
+    numberArray[i] = 1
+    break;
+    case 'b':
+    numberArray[i] = 2
+    break;
+    case 'c':
+    numberArray[i] = 3
+    break;
+    case 'd':
+    numberArray[i] = 4
+    break;
+    case 'e':
+    numberArray[i] = 5
+    break;
+    case 'f':
+    numberArray[i] = 6
+    break;
     case 'g':
     numberArray[i] = 7
     break;
@@ -189,9 +208,6 @@ for (let i = 0; i < charactersArray.length; i++) {
     break;
     case 'z':
     numberArray[i] = 26
-    break;
-    case 'd':
-    numberArray[i] = 4
     break;
     default:
     break;

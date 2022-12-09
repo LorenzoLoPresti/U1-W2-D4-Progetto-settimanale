@@ -1,3 +1,83 @@
+/* COMMONS */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-dark {
+  background-color: #222f3f;
+}
+
+.bg-light {
+  background-color: #364759;
+}
+
+/* HEADER */
+
+.header .logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 150px;
+}
+
+/* NAV */
+
+.navbar {
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .navbar p {
   display: inline;
+}
+
+.navbar p a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar p .All-link {
+  margin-left: 0;
+}
+
+/* MAIN */
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* FIRST SECTION (GIFT) */
+.gift-section {
+  text-align: center;
+}
+
+.gift-section .gift-cards-link {
+  background-color: #f56600;
+}
+
+.gift-section .gift-cards-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gift-section .gift-cards-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.gift-guides {
+  background-image: url(../Img/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gift-section .gift-guides {
+  color: white;
 }
