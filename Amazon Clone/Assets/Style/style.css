@@ -17,6 +17,10 @@ body {
   background-color: #364759;
 }
 
+.secondary-title {
+  font-weight: 600;
+}
+
 .shop-link {
   font-size: 1.1rem;
   text-decoration: none;
@@ -31,7 +35,7 @@ body {
   background-size: cover;
   background-position-x: -60px;
   height: 450px;
-  width: 363px;
+  width: 360px;
   display: inline-block;
   box-shadow: 10px 6px 29px -6px #000000;
 }
@@ -120,10 +124,6 @@ body {
   font-size: 1.3rem;
 }
 
-span {
-  font-size: 1.2rem;
-}
-
 /* SEZIONE 2 (SUGGEST) */
 
 .suggest-section {
@@ -160,8 +160,41 @@ span {
   margin-right: 30px;
 }
 
-/* SEZIONE 3 */
+/* SEZIONE 3 (VIDEOGAME) E 4 (MUSIC)*/
 
-.videogame-section img {
+.general-section {
+  text-align: center;
+}
+
+.general-section img {
   width: 100%;
+}
+
+.general-section .secondary-title {
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+
+/*  FOOTER*/
+
+.footer {
+  text-align: center;
+}
+
+.footer .scroll-top {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .scroll-top .scroll-style {
+  color: white;
+}
+
+.footer .footer-logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer .footer-logo img {
+  width: 150px;
 }
