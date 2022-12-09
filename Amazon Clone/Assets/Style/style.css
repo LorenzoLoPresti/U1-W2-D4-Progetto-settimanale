@@ -137,6 +137,9 @@ body {
 }
 
 .suggest-section .suggest-container .secondary-title {
+  text-align: left;
+}
+.suggest-section .suggest-container .secondary-title {
   font-weight: 600;
   padding-top: 20px;
 }
