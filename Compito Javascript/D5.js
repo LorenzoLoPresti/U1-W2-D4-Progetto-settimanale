@@ -81,7 +81,7 @@ const cars = [
 ]
 
  for (let i = 0; i < cars.length; i++) {
-   cars[i].licensePlate = i + 20
+   cars[i].licensePlate = 'AB45' + i + 'CD' //con l'operatore + i numeri vengono automaticamente convertiti in stringhe
  }
 
 
