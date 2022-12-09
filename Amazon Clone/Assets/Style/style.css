@@ -17,6 +17,29 @@ body {
   background-color: #364759;
 }
 
+.shop-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #1e7cb7;
+  margin-left: 30px;
+}
+
+.card-size {
+  margin-left: 30px;
+  margin-bottom: 25px;
+  border-radius: 8%;
+  background-size: cover;
+  background-position-x: -60px;
+  height: 450px;
+  width: 363px;
+  display: inline-block;
+  box-shadow: 10px 6px 29px -6px #000000;
+}
+
+.card-size:hover {
+  height: 470px;
+  width: 368px;
+}
 /* HEADER */
 
 .header .logo {
@@ -95,4 +118,50 @@ body {
   margin-top: 0;
   padding-bottom: 50px;
   font-size: 1.3rem;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+/* SEZIONE 2 (SUGGEST) */
+
+.suggest-section {
+  background-color: white;
+}
+
+.suggest-section .suggest-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.suggest-section .suggest-container .secondary-title {
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.suggest-section .card-1 {
+  background-image: url(../Img/img_1.jpg);
+}
+
+.suggest-section .card-2 {
+  background-image: url(../Img/img_2.jpg);
+  background-position-x: -100px;
+}
+
+.suggest-section .card-3 {
+  background-image: url(../Img/img_3.jpg);
+  background-position-x: -100px;
+}
+
+.suggest-section .card-4 {
+  background-image: url(../Img/img_4.jpg);
+  background-position: -100px;
+  margin-right: 30px;
+}
+
+/* SEZIONE 3 */
+
+.videogame-section img {
+  width: 100%;
 }
