@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
 }
 
 .bg-dark {
@@ -31,6 +32,7 @@ body {
   margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .navbar p {
@@ -60,6 +62,7 @@ body {
 
 .gift-section .gift-cards-link {
   background-color: #f56600;
+  margin-bottom: 30px;
 }
 
 .gift-section .gift-cards-link {
@@ -74,10 +77,22 @@ body {
 
 .gift-guides {
   background-image: url(../Img/bg-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 92%;
 }
 
 .gift-section .gift-guides {
   color: white;
+}
+
+.gift-section .gift-guides .title {
+  padding-top: 80px;
+  font-size: 2rem;
+  opacity: 0.9;
+}
+
+.gift-section .gift-guides .subtitle {
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 50px;
+  font-size: 1.3rem;
 }
